@@ -29,5 +29,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build # Change this to the directory containing your built files
+          publish_dir: ./dist # Change this to the directory containing your built files
           commit_message: "Automated deployment to GitHub Pages"
