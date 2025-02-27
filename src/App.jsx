@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import cn from "./lib/lib";
+import React from "react";
 
 const App = () => {
   return (
